@@ -27,9 +27,12 @@ const layerConfigurations = [
     growEditionSizeTo: 50,
     layersOrder: [
       { name: "Background" },
+      { name: "Body" },
       { name: "Clothes" },
-      { name: "Basic Head" },
+      { name: "Hat" },
+      { name: "Forehead" },
       { name: "Eyes" },
+      { name: "Mouth" },
     ],
   },
 ];
@@ -39,9 +42,9 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
-  smoothing: false,
+  width: 1024,
+  height: 1024,
+  smoothing: true,
 };
 
 const gif = {
@@ -70,7 +73,7 @@ const pixelFormat = {
 
 const background = {
   generate: true,
-  brightness: "80%",
+  brightness: "50%",
   static: false,
   default: "#000000",
 };

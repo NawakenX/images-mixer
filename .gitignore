@@ -54,6 +54,7 @@ dist/
 node_modules/
 jspm_packages/
 zScript_git commit.bat
+layers
 
 # TypeScript v1 declaration files
 
